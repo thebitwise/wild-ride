@@ -86,7 +86,7 @@ menu.my_root():list_action("Ride an animal", {"rideanimal"}, "", {"Deer", "Boar"
     local m_z_off = 0 
     local f_z_off = 0
 
-    pluto_switch index do 
+    switch index do 
         case 1: 
             m_z_off = 0.3 
             f_z_off = 0.15
